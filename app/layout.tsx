@@ -3,7 +3,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: 'Yushan Wei | Language, Narrative & LLM Evaluation',
   description: 'Yushan Wei studies emotional narration, human reader response, and LLM evaluation, and builds open-source tools for literature research.',
-  metadataBase: new URL('https://yushan-wei.qrong.chatgpt.site'),
+  metadataBase: new URL('https://silviawei031011.github.io'),
   alternates: { canonical: '/' },
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
