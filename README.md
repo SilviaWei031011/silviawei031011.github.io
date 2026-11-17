@@ -1,5 +1,18 @@
 # Yushan Wei — Personal Homepage
 
+The current page uses the approved November 2026 profile copy, with About,
+Research Interests, Research, Research Tools, and Education. The portrait area
+is intentionally empty until a photograph is selected. CV downloads are the
+approved English and Chinese Overleaf PDFs in `public/cv/`.
+
+Research and tool SVGs are conceptual study/workflow diagrams, not experimental
+data plots. University emblem images are sourced from the official identity pages:
+
+- SISU: https://news.shisu.edu.cn/about/identity-guidelines/index.html
+- Shandong University: https://culture.sdu.edu.cn/info/1011/1001.htm
+
+No visitor tracking or public visitor counter is enabled.
+
 Website: https://silviawei031011.github.io/
 
 Migrated from https://yushan-wei.qrong.chatgpt.site/ while preserving the existing page content, styles, and links to research tools.
