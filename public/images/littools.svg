@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">LitTools: explore records, then follow their sources</title>
+  <desc id="desc">A conceptual diagram brings bibliographic records from multiple academic sources into a deduplicated overview, then connects that overview to original source links for further searches and reading. The record marks are illustrative, not real search results.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L8 5 L1 9" fill="none" stroke="#782c40" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="640" height="360" fill="#f8f6f0"/>
+  <g font-family="Arial, 'Helvetica Neue', sans-serif" fill="#263445">
+    <text x="34" y="34" font-size="13" font-weight="600" letter-spacing="1.8" fill="#782c40">A FIRST LOOK AT THE LITERATURE</text>
+
+    <g fill="#fffefa" stroke="#263445" stroke-width="1.6" stroke-linejoin="round">
+      <path d="M35 71 H116 L130 85 V123 H35 Z"/>
+      <path d="M116 71 V85 H130" fill="none"/>
+      <path d="M35 145 H116 L130 159 V197 H35 Z"/>
+      <path d="M116 145 V159 H130" fill="none"/>
+      <path d="M35 219 H116 L130 233 V271 H35 Z"/>
+      <path d="M116 219 V233 H130" fill="none"/>
+    </g>
+    <g stroke-width="3" stroke-linecap="round">
+      <path d="M49 92 H99" stroke="#782c40"/>
+      <path d="M49 106 H114" stroke="#a3a6a1"/>
+      <path d="M49 166 H107" stroke="#38665d"/>
+      <path d="M49 180 H114" stroke="#a3a6a1"/>
+      <path d="M49 240 H99" stroke="#782c40"/>
+      <path d="M49 254 H109" stroke="#a3a6a1"/>
+    </g>
+    <text x="82" y="301" text-anchor="middle" font-size="20">Sources</text>
+
+    <g fill="none" stroke="#782c40" stroke-width="1.8">
+      <path d="M143 97 H163 Q183 97 183 117 V155 Q183 171 202 171"/>
+      <path d="M143 171 H202"/>
+      <path d="M143 245 H163 Q183 245 183 225 V187 Q183 171 202 171"/>
+      <path d="M202 171 H222" stroke-width="2.3" marker-end="url(#arrow)"/>
+    </g>
+
+    <path d="M239 66 H448 V282 H239 Z" fill="#fffefa" stroke="#263445" stroke-width="1.7"/>
+    <path d="M239 66 H448 V124 H239 Z" fill="#e5ebe5"/>
+    <path d="M239 66 H448 V282 H239 Z" fill="none" stroke="#263445" stroke-width="1.7"/>
+    <text x="258" y="91" font-size="17" fill="#38665d">Deduplicated</text>
+    <text x="258" y="115" font-size="24" font-weight="500">overview</text>
+    <g fill="#782c40">
+      <circle cx="259" cy="153" r="4"/>
+      <circle cx="259" cy="194" r="4"/>
+      <circle cx="259" cy="235" r="4"/>
+    </g>
+    <g stroke="#59636c" stroke-width="3" stroke-linecap="round">
+      <path d="M273 151 H421"/>
+      <path d="M273 192 H409"/>
+      <path d="M273 233 H418"/>
+    </g>
+    <g stroke="#adb1aa" stroke-width="2" stroke-linecap="round">
+      <path d="M273 164 H383"/>
+      <path d="M273 205 H393"/>
+      <path d="M273 246 H377"/>
+    </g>
+
+    <path d="M462 171 H502" fill="none" stroke="#782c40" stroke-width="2.3" marker-end="url(#arrow)"/>
+    <g fill="none" stroke="#38665d" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M552 151 H527 V193 H569 V168"/>
+      <path d="M546 176 L579 143"/>
+      <path d="M562 143 H579 V160"/>
+    </g>
+    <text x="550" y="230" text-anchor="middle" font-size="21">Source</text>
+    <text x="550" y="255" text-anchor="middle" font-size="21">links</text>
+    <text x="320" y="335" text-anchor="middle" font-size="20" letter-spacing=".1">Explore a topic. Follow the sources.</text>
+  </g>
+</svg>

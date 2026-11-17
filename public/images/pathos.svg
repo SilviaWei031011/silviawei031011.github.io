@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="400" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+<title id="title">PATHOS study overview</title><desc id="desc">Human-written and AI-generated news are compared using emotion dynamics and reader emotional distance. This is a schematic, not a data plot.</desc>
+<rect width="640" height="400" fill="#f5f0eb"/>
+<g font-family="Arial,Helvetica,sans-serif" fill="#303740">
+<text x="38" y="48" font-size="19" letter-spacing="2">PATHOS</text>
+<g stroke="#b4a69a" fill="#fdfcfb" stroke-width="2"><rect x="47" y="81" width="222" height="129" rx="3"/><rect x="370" y="81" width="222" height="129" rx="3"/></g>
+<text x="72" y="116" font-size="22">Human-written</text><text x="72" y="144" font-size="22">news</text>
+<text x="393" y="116" font-size="22">AI-generated</text><text x="393" y="144" font-size="22">news</text>
+<g stroke="#c3b8ae" stroke-width="5" stroke-linecap="round"><path d="M73 169H244M73 185H201M395 169H565M395 185H524"/></g>
+<path d="M158 226V249H481V226M320 249V280" stroke="#782c40" stroke-width="3" fill="none"/>
+<path d="m311 271 9 10 9-10" stroke="#782c40" stroke-width="3" fill="none"/>
+<rect x="46" y="299" width="251" height="60" rx="3" fill="#e9dbde"/><text x="171" y="336" text-anchor="middle" font-size="21" fill="#682538">Emotion dynamics</text>
+<rect x="316" y="299" width="278" height="60" rx="3" fill="#e2e9e3"/><text x="455" y="336" text-anchor="middle" font-size="19" fill="#31574d">Reader emotional distance</text>
+</g></svg>
