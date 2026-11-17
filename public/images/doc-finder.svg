@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Doc Finder: from Chinese notes to an English source</title>
+  <desc id="desc">A conceptual diagram connects Chinese reading notes to a candidate passage highlighted in an English PDF, with a page reference for checking the original context. The document lines and page number are illustrative placeholders.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M1 1 L8 5 L1 9" fill="none" stroke="#782c40" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="640" height="360" fill="#f8f6f0"/>
+  <g font-family="Arial, 'Helvetica Neue', 'Noto Sans CJK SC', 'PingFang SC', sans-serif" fill="#263445">
+    <text x="40" y="34" font-size="13" font-weight="600" letter-spacing="1.8" fill="#782c40">FROM A NOTE TO ITS SOURCE</text>
+
+    <path d="M40 66 H198 L230 98 V286 H40 Z" fill="#fffefa" stroke="#263445" stroke-width="1.7"/>
+    <path d="M198 66 V98 H230" fill="none" stroke="#263445" stroke-width="1.7" stroke-linejoin="round"/>
+    <text x="60" y="120" font-size="25" font-weight="500">中文笔记</text>
+    <rect x="58" y="143" width="150" height="34" rx="2" fill="#eee0e3"/>
+    <text x="69" y="167" font-size="21" fill="#782c40">阅读片段</text>
+    <g stroke="#9b9e9d" stroke-width="3" stroke-linecap="round">
+      <path d="M61 198 H203"/>
+      <path d="M61 216 H184"/>
+      <path d="M61 234 H197"/>
+    </g>
+    <text x="60" y="267" font-size="18" fill="#59636c">Chinese notes</text>
+
+    <path d="M246 178 H331" fill="none" stroke="#782c40" stroke-width="2.3" marker-end="url(#arrow)"/>
+    <text x="288" y="157" text-anchor="middle" font-size="20" fill="#782c40">Find</text>
+
+    <path d="M352 56 H568 L600 88 V298 H352 Z" fill="#fffefa" stroke="#263445" stroke-width="1.7"/>
+    <path d="M568 56 V88 H600" fill="none" stroke="#263445" stroke-width="1.7" stroke-linejoin="round"/>
+    <text x="374" y="108" font-size="24" font-weight="500">English PDF</text>
+    <g stroke="#9b9e9d" stroke-width="3" stroke-linecap="round">
+      <path d="M375 133 H577"/>
+      <path d="M375 145 H549"/>
+    </g>
+    <rect x="371" y="160" width="210" height="47" rx="2" fill="#dce9e1"/>
+    <path d="M372 160 V207" stroke="#38665d" stroke-width="3"/>
+    <text x="383" y="189" font-size="20" fill="#38665d">Candidate passage</text>
+    <g stroke="#9b9e9d" stroke-width="3" stroke-linecap="round">
+      <path d="M375 224 H566"/>
+      <path d="M375 238 H577"/>
+    </g>
+    <path d="M374 258 H578" stroke="#d2d5d0" stroke-width="1.2"/>
+    <text x="374" y="282" font-size="17" fill="#59636c">Page reference</text>
+    <text x="578" y="282" text-anchor="end" font-size="19" font-weight="600" fill="#38665d">p. n</text>
+    <text x="320" y="335" text-anchor="middle" font-size="21" letter-spacing=".1">Check the original context</text>
+  </g>
+</svg>
