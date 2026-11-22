@@ -15,26 +15,32 @@ export default function Home() {
   return (
     <>
       <a className="skip-link" href="#main">Skip to content</a>
-      <header id="top" className="topbar">
-        <a className="wordmark" href="#about" aria-label="Yushan Wei, back to about">YW<span> / </span>卫雨杉</a>
-        <nav aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#research">Research</a>
-          <a href="#tools">Tools</a>
-          <a href="#education">Education</a>
-        </nav>
-      </header>
-      <div className="page">
+      <div id="top" className="page">
         <aside className="identity" aria-label="Profile and contact links">
           <div className="portrait-placeholder" aria-hidden="true" />
           <div className="identity-text">
             <h1>Yushan Wei</h1>
             <p className="chinese-name" lang="zh">卫雨杉</p>
-            <div className="profile-links">
+            <div className="profile-actions" aria-label="Academic profiles and CV">
+              <a className="profile-icon" href={github} target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .297a12 12 0 0 0-3.793 23.385c.6.111.82-.261.82-.577v-2.234c-3.338.726-4.043-1.416-4.043-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.835 2.807 1.305 3.492.998.108-.776.418-1.305.762-1.605-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.323 3.301 1.23a11.52 11.52 0 0 1 6.006 0c2.291-1.553 3.297-1.23 3.297-1.23.654 1.652.243 2.873.119 3.176.77.84 1.235 1.91 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.216.694.825.576A12.001 12.001 0 0 0 12 .297Z" /></svg>
+              </a>
+              <a className="profile-icon" href="https://orcid.org/0009-0009-2646-3613" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="12" fill="currentColor" /><circle cx="6.25" cy="6.5" r="1.15" fill="white" /><path d="M5.25 9h2v9h-2Z" fill="white" /><path d="M10.2 9h3.1a4.5 4.5 0 0 1 0 9h-3.1Z" fill="none" stroke="white" strokeWidth="1.8" /></svg>
+              </a>
+              <details className="cv-picker">
+                <summary className="profile-icon" aria-label="Choose CV language" title="CV: English or 中文">
+                  <svg viewBox="0 0 28 32" aria-hidden="true"><path d="M4 1h13l7 7v23H4Z M17 1v8h7" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" /><text x="14" y="23" textAnchor="middle" fill="currentColor" fontFamily="Arial, sans-serif" fontSize="11" fontWeight="700">CV</text></svg>
+                </summary>
+                <div className="cv-options">
+                  <a href="/cv/Yushan_Wei_CV_EN.pdf" target="_blank" rel="noopener noreferrer">English CV <span>PDF</span></a>
+                  <a href="/cv/Yushan_Wei_CV_ZH.pdf" target="_blank" rel="noopener noreferrer" lang="zh">中文简历 <span>PDF</span></a>
+                </div>
+              </details>
+            </div>
+            <div className="profile-emails">
               <Link href="mailto:yushanwei0311@gmail.com">yushanwei0311@gmail.com</Link>
               <Link href="mailto:0243100192@shisu.edu.cn">0243100192@shisu.edu.cn</Link>
-              <div className="profile-link-row"><Link href={github}>GitHub</Link><Link href="https://orcid.org/0009-0009-2646-3613">ORCID</Link></div>
-              <div className="cv-links"><span>CV</span><a href="/cv/Yushan_Wei_CV_EN.pdf" target="_blank" rel="noopener noreferrer" aria-label="English CV, PDF">English</a><a href="/cv/Yushan_Wei_CV_ZH.pdf" target="_blank" rel="noopener noreferrer" lang="zh" aria-label="中文简历，PDF">中文</a></div>
             </div>
           </div>
         </aside>
