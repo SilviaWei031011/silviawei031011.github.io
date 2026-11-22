@@ -19,10 +19,11 @@ img { display: block; max-width: 100%; height: auto; }
 sup { font-size: .75em; line-height: 0; vertical-align: super; }
 .skip-link { position: absolute; top: -100px; left: 16px; background: white; padding: 10px 20px; z-index: 10; }
 .skip-link:focus { top: 12px; }
-.page { max-width: 1240px; margin: auto; padding: 48px 34px 0; display: grid; grid-template-columns: 234px minmax(0, 1fr); gap: 64px; }
+.page { max-width: 1360px; margin: auto; padding: 48px 34px 0; display: grid; grid-template-columns: 300px minmax(0, 1fr); gap: 48px; }
 .identity { position: sticky; top: 35px; align-self: start; }
 .identity-text { text-align: center; }
-.portrait-placeholder { width: 188px; height: 216px; background: #f1f2f3; border: 1px solid #dde0e3; margin: 0 auto 25px; }
+.portrait { display: block; width: 280px; max-width: 100%; aspect-ratio: 4 / 5; border-radius: 4px; overflow: hidden; margin: 0 auto 25px; }
+.portrait img { width: 100%; height: 100%; object-fit: cover; }
 h1 { font-weight: 700; font-size: 2.25rem; letter-spacing: -.035em; line-height: 1.2; }
 .chinese-name { font-size: 1.25rem; font-weight: 600; margin-top: 8px; letter-spacing: .12em; }
 .profile-actions { display: flex; align-items: center; justify-content: center; gap: 18px; margin-top: 17px; }
@@ -76,7 +77,8 @@ section { margin-bottom: 48px; scroll-margin-top: 28px; }
 .education-date span { display: block; }
 footer { border-top: 1px solid var(--line); padding: 20px 0 30px; display: flex; justify-content: space-between; font-size: .875rem; color: var(--secondary); }
 @media (max-width: 1100px) {
-  .page { grid-template-columns: 220px minmax(0, 1fr); gap: 36px; padding: 42px 28px 0; }
+  .page { grid-template-columns: 250px minmax(0, 1fr); gap: 32px; padding: 42px 28px 0; }
+  .portrait { width: 240px; }
   .research-entry, .tool { grid-template-columns: 185px minmax(0, 1fr); gap: 22px; }
   .interests { grid-template-columns: 1fr; gap: 7px; }
   .education-entry { flex-direction: column; gap: 5px; }
@@ -87,14 +89,14 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 30px; display: flex;
   .page { display: block; padding: 32px 22px 0; }
   .identity { position: static; display: flex; gap: 28px; align-items: flex-start; margin-bottom: 42px; }
   .identity-text { min-width: 0; }
-  .portrait-placeholder { flex: 0 0 136px; width: 136px; height: 168px; margin: 5px 0 0; }
+  .portrait { flex: 0 0 200px; width: 200px; margin: 0; }
   .section-heading { font-size: 1.875rem; }
   .research-entry, .tool { grid-template-columns: 200px minmax(0, 1fr); }
 }
 @media (max-width: 540px) {
   .page { padding: 28px 20px 0; }
-  .identity { gap: 18px; }
-  .portrait-placeholder { flex-basis: 86px; width: 86px; height: 110px; }
+  .identity { flex-direction: column; align-items: center; gap: 22px; }
+  .portrait { flex-basis: auto; width: 240px; }
   h1 { font-size: 1.875rem; }
   .chinese-name { font-size: 1.125rem; }
   .profile-emails { font-size: .875rem; }
@@ -109,5 +111,5 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 30px; display: flex;
   .education-date { margin-left: 57px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } a { transition: none; } }
-@media (max-width: 380px) { .identity { flex-direction: column; align-items: center; gap: 20px; } .portrait-placeholder { flex-basis: auto; } }
-@media print { .portrait-placeholder, .skip-link, footer, .profile-actions { display: none; } .page { display: block; padding: 0; } .identity { position: static; margin-bottom: 24px; } .profile-emails { flex-direction: row; justify-content: center; flex-wrap: wrap; gap: 16px; } .chinese-name { display: none; } section, article { break-inside: avoid; } }
+@media (max-height: 760px) { .identity { position: static; } }
+@media print { .portrait, .skip-link, footer, .profile-actions { display: none; } .page { display: block; padding: 0; } .identity { position: static; margin-bottom: 24px; } .profile-emails { flex-direction: row; justify-content: center; flex-wrap: wrap; gap: 16px; } .chinese-name { display: none; } section, article { break-inside: avoid; } }

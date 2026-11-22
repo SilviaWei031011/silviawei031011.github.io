@@ -17,7 +17,7 @@ export default function Home() {
       <a className="skip-link" href="#main">Skip to content</a>
       <div id="top" className="page">
         <aside className="identity" aria-label="Profile and contact links">
-          <div className="portrait-placeholder" aria-hidden="true" />
+          <a className="portrait" href="/images/yushan-wei-portrait.png" target="_blank" rel="noopener noreferrer" aria-label="View full-size portrait of Yushan Wei"><img src="/images/yushan-wei-portrait.jpg" width="1122" height="1402" alt="Portrait of Yushan Wei" fetchPriority="high" /></a>
           <div className="identity-text">
             <h1>Yushan Wei</h1>
             <p className="chinese-name" lang="zh">卫雨杉</p>
