@@ -5,8 +5,9 @@ Research Interests, Research, Research Tools, and Education. The portrait area
 is intentionally empty until a photograph is selected. CV downloads are the
 approved English and Chinese Overleaf PDFs in `public/cv/`.
 
-Research and tool SVGs are conceptual study/workflow diagrams, not experimental
-data plots. University emblem images are sourced from the official identity pages:
+Research thumbnails reproduce the overview figures from the PATHOS and LitArc-Bench
+manuscripts and the first page of the published 2023 article. Tool SVGs are
+conceptual workflow diagrams, not experimental data plots. University emblem images are sourced from the official identity pages:
 
 - SISU: https://news.shisu.edu.cn/about/identity-guidelines/index.html
 - Shandong University: https://culture.sdu.edu.cn/info/1011/1001.htm
