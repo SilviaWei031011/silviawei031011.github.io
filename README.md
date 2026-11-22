@@ -1,8 +1,10 @@
 # Yushan Wei — Personal Homepage
 
 The current page uses the approved November 2026 profile copy, with About,
-Research Interests, Research, Research Tools, and Education. The portrait area
-is intentionally empty until a photograph is selected. CV downloads are the
+Research Interests, Research, Research Tools, and Education. The portrait combines
+the subject from the supplied IMG_4601 photo with the supplied IMG_0261 waterfront,
+with background people removed and daylight matched using image editing.
+The page displays a JPEG and links to the full-resolution PNG. CV downloads are the
 approved English and Chinese Overleaf PDFs in `public/cv/`.
 
 Research thumbnails reproduce the overview figures from the PATHOS and LitArc-Bench
